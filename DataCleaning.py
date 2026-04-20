@@ -1,26 +1,45 @@
-def create_cloud(text, title, font):
-    wc = WordCloud(
-        width=800,
-        height=400,
-        background_color='white',
-        font_path=font
-    )
-    
-    wc.generate(text)
+import pandas as pd
+import numpy as np
 
-    import matplotlib.pyplot as plt
-    plt.figure()
-    plt.imshow(wc)
-    plt.axis("off")
-    plt.title(title)
-    plt.show()
+# Load dataset (replace with your file if needed)
+df = pd.read_csv("uncleaned.csv")
 
-# Separate by language + sentiment
-eng_pos = " ".join(df[(df['Language']=='english') & (df['Sentiment']=='Positive')]['Comment'])
-hin_pos = " ".join(df[(df['Language']=='hindi') & (df['Sentiment']=='Positive')]['Comment'])
-ben_pos = " ".join(df[(df['Language']=='bengali') & (df['Sentiment']=='Positive')]['Comment'])
+# 1. Remove unwanted column
+df = df.drop(columns=["Unnamed: 0"], errors='ignore')
 
-# Generate clouds
-create_cloud(eng_pos, "English Positive", "arial.ttf")
-create_cloud(hin_pos, "Hindi Positive", r"NotoSansDevanagari-Regular.ttf")
-create_cloud(ben_pos, "Bengali Positive", r"NotoSansBengali-Regular.ttf")
+# 2. Strip extra spaces from all string columns
+df = df.apply(lambda x: x.str.strip() if x.dtype == "object" else x)
+
+# 3. Standardize Sentiment column
+df['Sentiment'] = df['Sentiment'].str.capitalize()
+
+# 4. Handle missing values
+
+# Fill missing text with placeholder
+df['Text'] = df['Text'].fillna("No Comment")
+
+# Fill missing sentiment with Neutral
+df['Sentiment'] = df['Sentiment'].fillna("Neutral")
+
+# Fill missing categorical values
+df['User'] = df['User'].fillna("Unknown")
+df['Platform'] = df['Platform'].fillna("Unknown")
+df['Country'] = df['Country'].fillna("Unknown")
+
+# Fill missing Likes with 0 and convert to int
+df['Likes'] = pd.to_numeric(df['Likes'], errors='coerce').fillna(0).astype(int)
+
+# 5. Remove rows where Text is empty after cleaning
+df = df[df['Text'].str.strip() != ""]
+
+# 6. Remove duplicate rows
+df = df.drop_duplicates()
+
+# 7. Reset index
+df = df.reset_index(drop=True)
+
+# 8. Save cleaned dataset
+df.to_csv("cleaned.csv", index=False)
+
+# 9. Display cleaned data
+print(df)
