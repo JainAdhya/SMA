@@ -1,0 +1,46 @@
+Unnamed: 0.1,Unnamed: 0,Text,Sentiment,Timestamp,User,Platform,Hashtags,Retweets,Likes,Country,Year,Month,Day,Hour
+0,0, Enjoying a beautiful day at the park!              , Positive  ,2023-01-15 12:30:00, User123      , Twitter  , #Nature #Park                            ,15.0,30.0, USA      ,2023,1,15,12
+2,2, Just finished an amazing workout! 💪               , Positive  ,2023-01-15 15:45:00, FitnessFan   , Instagram , #Fitness #Workout                        ,20.0,40.0, USA        ,2023,1,15,15
+3,3, Excited about the upcoming weekend getaway!        , Positive  ,2023-01-15 18:20:00, AdventureX   , Facebook , #Travel #Adventure                       ,8.0,15.0, UK       ,2023,1,15,18
+5,5, Feeling grateful for the little things in life.    , Positive  ,2023-01-16 09:10:00, GratitudeNow , Twitter  , #Gratitude #PositiveVibes              ,25.0,50.0, India    ,2023,1,16,9
+6,6, Rainy days call for cozy blankets and hot cocoa.   , Positive  ,2023-01-16 14:45:00, RainyDays    , Facebook , #RainyDays #Cozy                         ,10.0,20.0, Canada   ,2023,1,16,14
+7,7, The new movie release is a must-watch!             , Positive  ,2023-01-16 19:30:00, MovieBuff    , Instagram , #MovieNight #MustWatch                  ,15.0,30.0, USA    ,2023,1,16,19
+10,10, Just published a new blog post. Check it out!      , Positive  ,2023-01-17 15:15:00, BloggerX     , Instagram , #Blogging #NewPost                      ,22.0,45.0,USA,2023,1,17,15
+12,12, Exploring the city's hidden gems.                  , Positive  ,2023-01-18 14:50:00, UrbanExplorer, Facebook , #CityExplore #HiddenGems                ,12.0,25.0, UK       ,2023,1,18,14
+13,13," New year, new fitness goals! 💪                    ", Positive  ,2023-01-18 18:00:00, FitJourney   , Instagram , #NewYear #FitnessGoals                  ,28.0,55.0, USA        ,2023,1,18,18
+15,15, Reflecting on the past and looking ahead.          , Positive  ,2023-01-19 13:20:00, Reflections  , Facebook , #Reflection #Future                     ,20.0,40.0, USA      ,2023,1,19,13
+16,16, Just adopted a cute furry friend! 🐾              , Positive  ,2023-01-19 17:10:00, PetAdopter   , Instagram , #PetAdoption #FurryFriend               ,15.0,30.0, Canada    ,2023,1,19,17
+17,17, Late-night gaming session with friends.            , Positive  ,2023-01-20 00:05:00, GamerX       , Twitter  , #Gaming #LateNight                      ,18.0,35.0, UK       ,2023,1,20,0
+20,20, Sipping coffee and enjoying a good book.           , Positive  ,2023-01-21 08:40:00, Bookworm     , Twitter  , #Reading #CoffeeTime                    ,22.0,45.0, India    ,2023,1,21,8
+21,21, Exploring the world of virtual reality.            , Positive  ,2023-01-21 13:20:00, VRExplorer   , Facebook , #VR #VirtualReality                     ,15.0,30.0,USA,2023,1,21,13
+22,22, Productive day ticking off my to-do list.          , Positive  ,2023-01-21 16:45:00, ProductivityPro, Instagram , #Productivity #WorkFromHome           ,30.0,60.0, USA ,2023,1,21,16
+23,23, Just finished a challenging workout routine.       , Positive  ,2023-01-22 09:15:00, FitnessWarrior, Twitter  , #Fitness #ChallengeAccepted             ,20.0,40.0, UK       ,2023,1,22,9
+24,24, Celebrating a milestone at work! 🎉               , Positive  ,2023-01-22 14:30:00, CareerMilestone, Facebook , #Career #Milestone                      ,12.0,25.0, Canada  ,2023,1,22,14
+25,25, Sunday brunch with friends.                        , Positive  ,2023-01-22 12:00:00, BrunchBuddy  , Instagram , #Brunch #Friends                       ,15.0,30.0, UK ,2023,1,22,12
+27,28, Learning a new language for personal growth.       , Positive  ,2023-01-23 16:20:00, LanguageLearner, Facebook , #LanguageLearning #PersonalGrowth       ,25.0,50.0, India     ,2023,1,23,16
+28,29, Quiet evening with a good book.                    , Positive  ,2023-01-23 19:45:00, BookLover    , Instagram , #Reading #QuietTime                     ,15.0,30.0, Australia ,2023,1,23,19
+29,30, Reflecting on the importance of mental health.     , Positive  ,2023-01-24 11:30:00, MentalHealthMatters, Twitter  , #MentalHealth #SelfCare                 ,22.0,45.0, USA      ,2023,1,24,11
+30,31, New painting in progress! 🎨                       , Positive  ,2023-01-24 15:00:00, ArtistInAction, Facebook , #Art #PaintingInProgress             ,12.0,25.0, Canada ,2023,1,24,15
+31,32, Weekend road trip to explore scenic views.         , Positive  ,2023-01-24 17:30:00, RoadTripper  , Instagram , #RoadTrip #ScenicViews                  ,18.0,35.0, UK        ,2023,1,24,17
+32,33, Enjoying a cup of tea and watching the sunset.     , Positive  ,2023-01-25 18:00:00, SunsetWatcher, Twitter  , #TeaTime #Sunset                       ,15.0,30.0, India    ,2023,1,25,18
+33,34, Coding a new project with enthusiasm.              , Positive  ,2023-01-25 13:15:00, CodeEnthusiast, Facebook , #Coding #Enthusiasm                   ,30.0,60.0, USA ,2023,1,25,13
+34,35, Feeling inspired after attending a workshop.       , Positive  ,2023-01-26 09:45:00, WorkshopAttendee, Instagram , #Inspiration #Workshop                  ,25.0,50.0,USA,2023,1,26,9
+35,36, Winter sports day at the local park.               , Positive  ,2023-01-26 14:20:00, WinterSports  , Twitter  , #WinterSports #Fun                     ,15.0,30.0, Canada   ,2023,1,26,14
+36,37, Quality time with family this weekend.             , Positive  ,2023-01-26 17:40:00, FamilyTime   , Facebook , #FamilyTime #Weekend                    ,22.0,45.0, UK        ,2023,1,26,17
+37,38, Attending a live music concert tonight.            , Positive  ,2023-01-27 20:00:00, MusicLover   , Instagram , #Music #ConcertNight                  ,18.0,35.0, USA ,2023,1,27,20
+38,39, Practicing mindfulness with meditation.            , Positive  ,2023-01-27 12:30:00, MindfulMoments, Twitter  , #Mindfulness #Meditation               ,15.0,30.0, India    ,2023,1,27,12
+39,40, Trying out a new dessert recipe.                   , Positive  ,2023-01-27 16:10:00, DessertExplorer, Facebook , #Dessert #Cooking                      ,12.0,25.0, Canada ,2023,1,27,16
+40,41, Excited about the upcoming gaming tournament.      , Positive  ,2023-01-28 09:00:00, GamingEnthusiast, Instagram , #Gaming #Tournament                     ,30.0,60.0,USA,2023,1,28,9
+41,42, Planning a garden makeover for spring.             , Positive  ,2023-01-28 14:45:00, GardenPlanner , Twitter  , #Gardening #Spring                     ,25.0,50.0, USA      ,2023,1,28,14
+42,43, Celebrating a friend's birthday tonight! 🎂       , Positive  ,2023-01-28 19:30:00, BirthdayBash , Facebook , #Birthday #Celebration                  ,15.0,30.0, UK ,2023,1,28,19
+43,44, Feeling accomplished after a productive day.       , Positive  ,2023-01-29 17:00:00, ProductivityWin, Instagram , #Accomplished #Success               ,22.0,45.0, India ,2023,1,29,17
+44,45, A cozy evening with a good movie.                 , Positive  ,2023-01-29 20:20:00, MovieNight   , Twitter  , #CozyNight #MovieTime                   ,18.0,35.0, Canada   ,2023,1,29,20
+45,46, Exploring local art galleries this weekend.        , Positive  ,2023-01-30 11:30:00, ArtExplorer  , Facebook , #Art #GalleryExplore                    ,15.0,30.0, USA      ,2023,1,30,11
+46,47, New book release from my favorite author!          , Positive  ,2023-01-30 15:45:00, BookwormX    , Instagram , #BookRelease #FavoriteAuthor           ,12.0,25.0, UK   ,2023,1,30,15
+47,48, Attending a virtual reality meetup.                , Positive  ,2023-01-30 18:30:00, VRMeetup     , Twitter  , #VRMeetup #VirtualReality               ,28.0,55.0, India    ,2023,1,30,18
+48,49, Reflecting on the beauty of nature.                , Positive  ,2023-01-31 10:45:00, NatureLover  , Facebook , #Nature #Reflection                     ,15.0,30.0, Australia ,2023,1,31,10
+49,50, Cooking a special dinner for loved ones.           , Positive  ,2023-01-31 19:00:00, ChefAtHome   , Instagram , #Cooking #SpecialDinner                ,20.0,40.0, USA       ,2023,1,31,19
+50,51, Feeling optimistic about the week ahead.           , Positive  ,2023-01-31 16:20:00, OptimisticMindset, Twitter  , #Optimism #NewWeek                     ,15.0,30.0, Canada   ,2023,1,31,16
+51,52, Starting a new fitness challenge tomorrow! 💪     , Positive  ,2023-02-01 08:00:00, FitnessChallenge, Facebook , #FitnessChallenge #NewBeginnings       ,22.0,45.0, UK         ,2023,2,1,8
+52,53, Sunday bike ride through scenic trails.           , Positive  ,2023-02-01 13:30:00, BikeExplorer  , Instagram , #BikeRide #ScenicTrails                ,18.0,35.0, USA     ,2023,2,1,13
+648,652,Convinced the teacher to have class outdoors. Learning equations with a side of fresh air! , Positive ,2023-08-06 14:00:00, OutdoorClassHighSchool , Facebook , #OutdoorClassroom #HighSchoolExplorer ,28.0,55.0, USA,2023,8,6,14
